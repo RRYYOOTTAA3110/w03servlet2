@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PasswordAuthentication</display-name>
+    <servlet-name>PasswordAuthentication</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter03.PasswordAuthentication</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PasswordAuthentication</servlet-name>
+    <url-pattern>/PasswordAuthentication</url-pattern>
+  </servlet-mapping>
 </web-app>
